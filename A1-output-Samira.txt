@@ -1,0 +1,83 @@
+┌──(samira㉿Samira)-[~]
+└─$ touch A1-output-Samira.txt
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ pwd
+/home/samira
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ ls
+A1-output-Samira.txt  Documents  Music     Public     Videos
+Desktop               Downloads  Pictures  Templates
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ mkdir PRACTICEONE  
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ cd PRACTICEONE  
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ pwd
+/home/samira/PRACTICEONE
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ ls
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ touch TEST                
+                                                                         
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ touch TEST2    
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ ls
+TEST  TEST2
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ rm TEST2   
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ ls
+TEST
+                                                                             
+┌──(samira㉿Samira)-[~/PRACTICEONE]
+└─$ cd ..         
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ rmdir PRACTICEONE
+rmdir: failed to remove 'PRACTICEONE': Directory not empty
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ rm -r PRACTICEONE
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ cd PRACTICEONE
+cd: no such file or directory: PRACTICEONE
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ man cp           
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ clear
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ touch helloworld.cpp
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ gedit helloworld.cpp
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ gcc helloworld.cpp  
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ ./a.out
+Hello, World!                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ g++ helloworld.c  
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ gcc helloworld.c -o helloworld
+                                                                             
+┌──(samira㉿Samira)-[~]
+└─$ gcc helloworld.cpp -o helloworld
+
